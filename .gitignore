@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets - never commit these
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.json
+api_keys.txt
+
+# Local reports and scratch output
+report.json
+domain.json
+out.json
+*.local.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# My scratch/diagnostic scripts (leading underscore = not part of the project)
+_scan_for_secrets.py
+_test_password_strength.py
+_diag_*.py
